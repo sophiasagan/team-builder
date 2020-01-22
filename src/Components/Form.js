@@ -6,13 +6,22 @@ const FormContainer = styled.div`
     margin-top: 5%;
     width: 30%;
     margin: 4% auto;
+    
 `;
 
 const Form2 = styled.form`
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 2rem;
+    
 `;
+
+const label = styled.div`
+    display: flex;
+    text-align: center;
+    `;
+
 
 function Form(props) {
     const {setTeam, team, newMember, setNewMember, memberToEdit, isEdit, setIsEdit} = props;

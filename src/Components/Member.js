@@ -2,10 +2,10 @@ import React, {useEffect} from 'react'
 import styled from 'styled-components'
 
 const Card = styled.div`
-    width: 200px;
+    width: 250px;
     height: 200px;
-    border: 1px solid black;
-    margin: 1%;
+    border: 3px solid blue;
+    margin: 1.5%;
 `;
 
 const CardContainer = styled.div`
